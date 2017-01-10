@@ -51,7 +51,7 @@ def get_test_dataset(test_file):
 			test_y.append(eval(label))
 	return test_x, test_y
 
-test_x, test_y = get_test_dataset('data/tesing.csv')
+test_x, test_y = get_test_dataset('data/testing.csv')
 
 
 #######################################################################
